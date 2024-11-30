@@ -1,0 +1,20 @@
+def addition(num1, num2):
+  addition = num1 + num2
+  return addition
+
+def sub(num1, num2):
+  sub = num1 - num2
+  return sub
+
+def mul(num1, num2):
+  mul = num1 * num2
+  return mul
+
+print(addition(5,10))
+print(sub(10,5))
+print(mul(2,5))
+
+Output:
+15
+5
+10
