@@ -17,6 +17,10 @@ def divide():
   divide = num1 / num2
   print(divide)
 
-def addition():
+def mod():
   mod = num1 % num2
   print(mod)
+
+addtion()
+sub()
+mul()
