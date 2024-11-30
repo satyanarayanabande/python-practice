@@ -118,9 +118,10 @@ if match:
 else:
     print("No match")
 
-utput: No match
+Output: No match
 
-#import re
+# regex-replace.py
+import re
 
 text = "The quick brown fox jumps over the lazy brown dog"
 pattern = r"brown"
@@ -132,7 +133,10 @@ print("Modified text:", new_text)
 
 Output: Modified text: The quick red fox jumps over the lazy red dog
 
-#import re
+
+
+# regex-search.py
+import re
 
 text = "The quick brown fox"
 pattern = r"brown"
@@ -144,6 +148,10 @@ else:
     print("Pattern not found")
 
 Output: Pattern found: brown
+
+
+# regex-split.py
+
 import re
 
 text = "apple,banana,orange,grape"
@@ -153,9 +161,6 @@ split_result = re.split(pattern, text)
 print("Split result:", split_result)
 
 Output: Split result: ['apple', 'banana', 'orange', 'grape']
-
-#
-#
 
 
 
